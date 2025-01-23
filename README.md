@@ -25,7 +25,7 @@ Siga os passos abaixo para configurar o ambiente e executar os testes:
 
 1. Clone este repositório:
 ```bash
-git clone https://github.com/brunobzs/cypress-api-test.git
+git clone https://github.com/theussouza96/cypress-api-test-master.git
 ``` 
 2. Instale as dependências do projeto:
 ```bash
@@ -44,12 +44,3 @@ Usando o cypress no modo headless:
 npx cypress run
 ```
 O Cypress será aberto automaticamente, e os testes de API serão executados.
-
-## Contribuindo
-Se você deseja contribuir para este repositório, siga os passos abaixo:
-1. Fork este repositório.
-2. Crie uma branch para suas alterações:
-```bash
-git checkout -b minha-branch
-```
-3. Faça as alterações necessárias e envie um pull request.

@@ -33,7 +33,7 @@ jobs:
         run: |
           npx cypress run \
             --record \
-            --key 0520ea72-3303-437c-b0ae-7b074d27c86e
+            --key f8731af1-8aba-4a37-bdb7-a07710e4b1c7
 
       - name: Upload test results
         uses: actions/upload-artifact@v4

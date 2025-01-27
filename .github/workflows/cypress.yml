@@ -7,6 +7,12 @@ on:
   push:
     branches: [ master ]
 
+  workflow_dispatch:
+    inputs:
+      cli:
+        description: Run by cypress command line
+        default:  npx cypress run
+
 jobs:
   build:
     runs-on: ubuntu-latest
